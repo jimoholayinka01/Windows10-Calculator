@@ -1,0 +1,121 @@
+.calc{
+    width: 340px;
+    height: 68.5vh;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    border: solid 2px black;
+}
+
+.box1{
+    min-width: 60px;
+    height: 50px;
+    background-color: black;
+    outline: 2px solid rgb(189, 186, 186);
+    color: white ;
+    margin:0px
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.mini{
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border: 1px solid white;
+}
+#asd{
+    color: rgb(81, 81, 81);
+    font-size: 12px;
+}
+.asd{
+    font-size: 12px;
+}
+.join{
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+.stand{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#stad{
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+.screen{
+    width: 95%;
+    color: transparent;
+    height: 85px;
+    /* border: 1px solid grey; */
+    
+    margin-left: 8px;
+    
+}
+.screen input.new{
+    width: 95%;
+    height: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(50, 50, 50);
+    outline:none; color: white;
+    text-align: end;
+    color: grey;
+    font-size: 15px;
+}
+.screen input.neww{
+    width: 95%;
+    background-color: rgb(50, 50, 50);
+    height: 85px;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    outline:none; color: white;
+    font-size: 35px;
+    text-align: end;
+    
+    
+    
+    
+}
+.screen input::placeholder{
+    color: white;
+}
+/* .screen input:hover{
+    outline: 1px solid black;
+} */
+.upp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.keys{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.keys :hover{
+    background-color: rgb(71, 70, 70);
+}
+
+.keys button{
+    min-width: 85px;
+    height: 55px;
+    font-size: 15px;
+    border: 1px solid rgb(51, 50, 50);
+    background-color: rgb(34, 33, 33);
+    font-weight: 500;
+    color: aliceblue;
+}
+.keys button:hover{
+    background-color: rgb(12, 12, 12) !important;
+}
+.fig{
+    background-color: black !important;
+    font-size: 25px !important;
+}

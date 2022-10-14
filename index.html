@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/calcula.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <center>
+    <div class="calc">
+        <div class="header">
+            <div>Calculator</div>
+            <div class="join">
+                <div class="fa-regular fa-window-minimize" style="margin-top: -5px;" ></div>
+                <div class="mini"></div>
+                <div class="fa-solid fa-xmark"></div>
+            </div>
+        </div>
+        <div class="stand">
+            <div id="stad">
+                <div class="fa fa-bars"></div>
+                <div> Standard</div>
+            </div>
+            <div><i class="fa-solid fa-clock-rotate-left"></i></div>
+        </div>
+        <div class="screen">
+            <input type="text" class="new" readonly>
+            <input type="text" placeholder="0" readonly id="disp1" class="neww">
+        </div>
+        <div class ="upp">
+            <div id="asd">MC</div>
+            <div id="asd">MR</div>
+            <div class="asd">M+</div>
+            <div class="asd">M-</div>
+            <div class="asd">MS</div>
+            <div id="asd">M</div>
+        </div>
+
+        <div class="keys">
+        <button onclick="opra('%')">%</button>
+        <button onclick="opra('√')">√</button>
+        <button onclick="opra('²')"> x²</button>
+        <button onclick="opra('1/x')">1/x</button>
+        <button onclick="ce()">CE</button>
+        <button onclick="c()">C</button>
+        <button onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+        <button style="font-size: 20px;" onclick="opera('/')">÷</button>
+        <button class="fig" onclick="clic(7)">7</button>
+        <button class="fig" onclick="clic(8)">8</button>
+        <button class="fig" onclick="clic(9)">9</button>
+        <button onclick="opera('*')">X</button>
+        <button class="fig" onclick="clic(4)">4</button>
+        <button class="fig" onclick="clic(5)">5</button>
+        <button class="fig" onclick="clic(6)">6</button>
+        <button onclick="opera('-')">-</button>
+        <button class="fig" onclick="clic(1)">1</button>
+        <button class="fig" onclick="clic(2)">2</button>
+        <button class="fig" onclick="clic(3)">3</button>
+        <button onclick="opera('+')">+</button>
+        <button onclick="clia()">±</button>
+        <button class="fig" onclick="clic(0)" class="zero" >0</button>
+        <button onclick="cli('.')">.</button>
+        <button onclick="equals()">=</button>
+        </div>
+    </div>
+    </center>
+    
+        
+
+    
+</body>
+<script src="./cal.js"></script>
+</html>
